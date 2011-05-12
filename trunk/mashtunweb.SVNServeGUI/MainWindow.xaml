@@ -1,0 +1,96 @@
+﻿<Window x:Class="mashtunweb.SVNServeGUILite.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="SVN Gui Lite" Height="354" Width="644" Loaded="Window_Loaded" Closing="Window_Closing"
+        Icon="Images/SVNServeGUI.ico">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="Data" />
+    </Window.Resources>
+    <Grid Background="#FFC2D8FA">
+        <Menu Name="MainMenu" Height="20" VerticalAlignment="Top" Background="#FFC2D8FA" KeyboardNavigation.IsTabStop="False">
+            <MenuItem Header="_File" KeyboardNavigation.IsTabStop="False">
+                <MenuItem Name="CloseMenuItem" Header="_Close" Click="CloseMenuItem_Click">
+                    <MenuItem.ToolTip>
+                        <ToolTip>
+                            Close Everything.
+                        </ToolTip>
+                    </MenuItem.ToolTip>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl Margin="2,20,2,2" KeyboardNavigation.IsTabStop="False">
+            <TabItem Name="_serverDaemonTab" Header="Server Daemon" KeyboardNavigation.IsTabStop="False">
+                <Canvas Name="canvas1" Width="300" Height="100">
+                    <Button Canvas.Left="0" Canvas.Top="0" Height="100" Name="playButton" Width="100" HorizontalContentAlignment="Center" Click="playButton_Click">
+                        <Image Name="playButtonImage" Source="Images\svn-start.png"></Image>
+                    </Button>
+                    <Button Canvas.Left="200" Canvas.Top="0" Height="100" Name="stopButton" Width="100" HorizontalContentAlignment="Center" Click="stopButton_Click">
+                        <Image Name="stopButtonImage" Source="Images\svn-stop.png"></Image>
+                    </Button>
+                </Canvas>
+            </TabItem>
+            <TabItem Name="_newRepoTab" Header="New Repo" KeyboardNavigation.IsTabStop="False">
+                <Grid DataContext="{StaticResource Data}">
+                    <ComboBox Height="23" Margin="132,39,0,0" 
+                              Name="_fsComboBox" VerticalAlignment="Top" 
+                              SelectedIndex="0" HorizontalAlignment="Left" 
+                              Width="120">
+                        <ComboBoxItem>fsfs</ComboBoxItem>
+                        <ComboBoxItem>BDB</ComboBoxItem>
+                    </ComboBox>
+                    <Label Height="23" 
+                           HorizontalAlignment="Left" 
+                           Margin="6,39,0,0" Name="_fsTypeLabel" 
+                           VerticalAlignment="Top" 
+                           Width="120" Content="File System Type:" />
+                    <Label Height="28" Margin="0,6,188,0" 
+                           Name="label1" VerticalAlignment="Top" 
+                           FontSize="14" FontWeight="Bold" 
+                           HorizontalAlignment="Right" 
+                           Width="220" Content="Create a New SVN Repository" />
+                    <Label Height="23" HorizontalAlignment="Left" 
+                           Margin="6,68,0,0" Name="label2" 
+                           VerticalAlignment="Top" Width="120"
+                           Content="Repository Path:" />
+                    <Separator Margin="0,0,0,26" Height="2" VerticalAlignment="Bottom" />
+                    <Label Name="_statusLabel" Content="" 
+                           VerticalAlignment="Bottom" Height="23.277" 
+                           Margin="0,0,157,0" />
+                    <ProgressBar HorizontalAlignment="Right" 
+                                 Margin="0,0,6,3" Name="_progressBar" 
+                                 VerticalAlignment="Bottom" 
+                                 Width="145" Height="17" />
+                    <Label Margin="6,122,0,0" Name="label3" HorizontalAlignment="Left" 
+                           Width="43" Height="22" VerticalAlignment="Top">Users</Label>
+                    <ListBox Margin="6,149.723,0,0" Name="_userListBox" 
+                             HorizontalAlignment="Left" Width="120" Height="79" 
+                             ItemsSource="{Binding Path=Users}"
+                             VerticalAlignment="Top"
+                             >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <TextBlock Text="{Binding Key}" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Label HorizontalAlignment="Left" 
+                           Margin="132,121,0,118.723" Name="label4" 
+                           Width="71">User Name:</Label>
+                    <Label HorizontalAlignment="Left" 
+                           Margin="132,0,0,89" Name="label5" Width="71" Height="23" 
+                           VerticalAlignment="Bottom">Password:</Label>
+                    <Button HorizontalAlignment="Left" Margin="199,206,0,0" 
+                            Name="_removeUserButton" Width="75" Height="22.723" 
+                            VerticalAlignment="Top" KeyboardNavigation.IsTabStop="False" Click="_removeUserButton_Click">Remove User</Button>
+                    <Button KeyboardNavigation.TabIndex="4" Height="23" HorizontalAlignment="Right" Margin="0,0,15,34" Name="_createRepoButton" VerticalAlignment="Bottom" Width="75" Click="_createRepoButton_Click">Create Repo</Button>
+                    <Button KeyboardNavigation.TabIndex="3" Margin="199,180,0,0" Name="_addUserButton" HorizontalAlignment="Left" Width="75" Height="22.723" VerticalAlignment="Top" Click="_addUserButton_Click">Add User</Button>
+                    <PasswordBox KeyboardNavigation.TabIndex="2" Margin="199,150.723,15,0" PasswordChar="*" Name="_passwordBox" Height="23" VerticalAlignment="Top" />
+                    <TextBox KeyboardNavigation.TabIndex="1" Margin="199,122,15,0" Name="_userNameBox" Height="23" VerticalAlignment="Top" />
+                    <TextBox KeyboardNavigation.TabIndex="0" Height="23" Margin="132,68,15,0" Name="_pathTextBox" VerticalAlignment="Top">c:\svn\</TextBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
