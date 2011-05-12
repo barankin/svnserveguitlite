@@ -16,6 +16,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Collections.ObjectModel;
 using System.Threading;
+using mashtunweb.SVNServeGUILite.Classes;
 
 namespace mashtunweb.SVNServeGUILite
 {
@@ -36,6 +37,7 @@ namespace mashtunweb.SVNServeGUILite
 
             // Enable "minimize to tray" behavior for this Window
             MinimizeToTray.Enable(this, "SVN Gui is still running in the background.");
+            Console.WriteLine(AppVersion.Number);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
