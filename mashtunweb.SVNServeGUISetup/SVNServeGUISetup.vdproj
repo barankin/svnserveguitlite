@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_2A231FADA7C846ABA8098A3C121D5462"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8F79EBB2C65E4B8E8AA7C127F8435CB6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -134,7 +140,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.30729 "
+                "FrameworkVersion" = "8:3.5.30729  "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -142,6 +148,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2A231FADA7C846ABA8098A3C121D5462"
+            {
+            "SourcePath" = "8:..\\mashtunweb.SVNServeGUI\\gpl.txt"
+            "TargetName" = "8:gpl.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_F5F284591A734F48A025D33E1A1DE2BC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8F79EBB2C65E4B8E8AA7C127F8435CB6"
             {
             "SourcePath" = "8:C:\\WINDOWS\\system32\\msiexec.exe"
@@ -261,7 +287,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SVN GUI Lite"
         "ProductCode" = "8:{BB4A5D9D-E99D-410D-87D8-C9C7B814D287}"
-        "PackageCode" = "8:{5C9016C0-F1BD-48E6-965F-6F5C0FB3C7C1}"
+        "PackageCode" = "8:{CC84B531-78BB-4A9C-AF82-2D8161405232}"
         "UpgradeCode" = "8:{8C575DBC-6A11-450B-8195-C2C46AA2E4B1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

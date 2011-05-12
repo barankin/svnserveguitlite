@@ -17,6 +17,7 @@ using System.IO;
 using System.Collections.ObjectModel;
 using System.Threading;
 using mashtunweb.SVNServeGUILite.Classes;
+using mashtunweb.SVNServeGUILite.Windows;
 
 namespace mashtunweb.SVNServeGUILite
 {
@@ -30,6 +31,8 @@ namespace mashtunweb.SVNServeGUILite
         private bool _svnserveRunning = false;
         private ObjectDataProvider _dataObject;
         private Data _data;
+        private OptionsWindow _optionsWindow;
+        private AboutWindow _aboutWindow;
 
         public MainWindow()
         {
@@ -213,6 +216,18 @@ namespace mashtunweb.SVNServeGUILite
                     delegate() { _progressBar.Value = 0; }
                 ));
             }
+        }
+
+        private void _options_Click(object sender, RoutedEventArgs e)
+        {
+            _optionsWindow = new OptionsWindow();
+            _optionsWindow.ShowDialog();
+        }
+
+        private void _about_Click(object sender, RoutedEventArgs e)
+        {
+            _aboutWindow = new AboutWindow();
+            _aboutWindow.ShowDialog();
         }
     }
 }

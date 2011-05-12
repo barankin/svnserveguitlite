@@ -8,8 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace mashtunweb.SVNServeGUILite.Properties
-{
+namespace mashtunweb.SVNServeGUILite.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -101,7 +100,7 @@ namespace mashtunweb.SVNServeGUILite.Properties
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0.1.0.2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.1.0.6")]
         public string Version {
             get {
                 return ((string)(this["Version"]));

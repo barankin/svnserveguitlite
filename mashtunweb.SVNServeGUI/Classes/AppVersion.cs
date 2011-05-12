@@ -73,7 +73,10 @@ namespace mashtunweb.SVNServeGUILite.Classes
                                                   strVersion[1], strVersion[2], _aRevData[0]);
                 SetApplicationVersionSetting();
             }
-            Number = Properties.Settings.Default.Version;
+            else
+            {
+                Number = Properties.Settings.Default.Version;
+            }
         }
 
         private static void SetApplicationVersionSetting()
