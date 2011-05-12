@@ -35,8 +35,13 @@ C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserv
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\App.g.cs
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\SVN Gui Lite_MarkupCompile.cache
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\SVN Gui Lite.g.resources
-C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\SVNServeGUI.Properties.Resources.resources
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\GenerateResource-ResGen.read.1.tlog
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\GenerateResource-ResGen.write.1.tlog
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\bin\Debug\SVN Gui Lite.exe
 C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\bin\Debug\SVN Gui Lite.pdb
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\Windows\AboutWindow.baml
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\Windows\AboutWindow.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\Windows\OptionsWindow.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\SVN Gui Lite_MarkupCompile.lref
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\Windows\OptionsWindow.baml
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\svnserveguitlite\mashtunweb.SVNServeGUI\obj\Debug\mashtunweb.SVNServeGUILite.Properties.Resources.resources
