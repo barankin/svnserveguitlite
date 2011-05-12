@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mash Tun Web Services")]
 [assembly: AssemblyProduct("mashtunweb.mashtunweb.SVNServeGUILiteLite")]
-[assembly: AssemblyCopyright("Copyright © Mash Tun Web Services 2011")]
+[assembly: AssemblyCopyright("Copyright © 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

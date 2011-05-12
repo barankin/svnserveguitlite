@@ -17,6 +17,24 @@
                     </MenuItem.ToolTip>
                 </MenuItem>
             </MenuItem>
+            <MenuItem Name="_toolsMenu" Header="_Tools" >
+                <MenuItem Name="_options"  Header="_Options" Click="_options_Click">
+                    <MenuItem.ToolTip>
+                        <ToolTip>
+                            Open Options dialog.
+                        </ToolTip>
+                    </MenuItem.ToolTip>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="_helpMenu" Header="_Help">
+                <MenuItem Name="_about" Header="_About..." Click="_about_Click">
+                    <MenuItem.ToolTip>
+                        <ToolTip>
+                            Open About dialog.
+                        </ToolTip>
+                    </MenuItem.ToolTip>
+                </MenuItem>
+            </MenuItem>
         </Menu>
         <TabControl Margin="2,20,2,2" KeyboardNavigation.IsTabStop="False">
             <TabItem Name="_serverDaemonTab" Header="Server Daemon" KeyboardNavigation.IsTabStop="False">
