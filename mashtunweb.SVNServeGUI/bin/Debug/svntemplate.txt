@@ -1,0 +1,14 @@
+$WCREV$
+$WCDATE$
+$WCNOW$
+$WCRANGE$
+$WCMIXED?Mixed update revision:Not mixed$
+$WCMODS?Modified:Not modified$
+$WCURL$
+$WCNOW$
+$WCINSVN?Versioned:Not Versioned$
+$WCNEEDSLOCK?Lock Required:Lock not required$
+$WCISLOCKED?Locked:Not Locked$
+$WCLOCKDATE$
+$WCLOCKOWNER$
+$WCLOCKCOMMENT$
