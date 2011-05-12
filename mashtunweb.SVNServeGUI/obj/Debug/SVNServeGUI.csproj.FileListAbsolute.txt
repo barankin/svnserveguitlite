@@ -1,0 +1,13 @@
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\App.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVNServeGUI.Properties.Resources.resources
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVNServeGUI.csproj.GenerateResource.Cache
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\MainWindow.baml
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\MainWindow.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\bin\Debug\SVN Gui Lite.exe
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\bin\Debug\SVN Gui Lite.pdb
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVN Gui Lite_MarkupCompile.cache
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVN Gui Lite.g.resources
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVN Gui Lite.exe
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\obj\Debug\SVN Gui Lite.pdb
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\SVNServeGUI\SVNServeGUI\bin\Debug\SVN Gui Lite.exe.config

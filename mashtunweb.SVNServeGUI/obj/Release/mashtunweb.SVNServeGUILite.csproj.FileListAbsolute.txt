@@ -1,0 +1,14 @@
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\MainWindow.baml
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\MainWindow.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\App.g.cs
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\SVN Gui Lite_MarkupCompile.cache
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\SVN Gui Lite.g.resources
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\SVNServeGUI.Properties.Resources.resources
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\SVN Gui Lite.exe
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\bin\Release\SVN Gui Lite.exe.config
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\bin\Release\SVN Gui Lite.exe
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\bin\Release\SVN Gui Lite.pdb
+C:\Documents and Settings\rankb\My Documents\Visual Studio 2010\Projects\SVNServeGUI\SVNServeGUI\obj\Release\SVN Gui Lite.pdb
