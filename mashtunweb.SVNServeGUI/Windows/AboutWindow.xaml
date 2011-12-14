@@ -33,7 +33,7 @@
             <TextBlock HorizontalAlignment="Left" Margin="5,27,0,0" Name="textBlock1" 
                        Width="53" Height="15" VerticalAlignment="Top" Text="Version:" FontSize="14" />
             <TextBlock Height="15" Margin="60,27,6,0" Name="_versionText" 
-                       VerticalAlignment="Top" FontSize="14" Text="{Binding Source={x:Static p:Settings.Default}, Path=Version, Mode=OneWay}" />
+                       VerticalAlignment="Top" FontSize="14" Text="{Binding Source={x:Static p:Settings.Default}, Path=UserVersion, Mode=OneWay}" />
 
             <TextBlock Margin="0,61,0,47" TextWrapping="Wrap">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<LineBreak/><LineBreak/> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<LineBreak/><LineBreak/> You should have received a copy of the GNU General Public License along with this program.  If not, see <Hyperlink NavigateUri="http://www.gnu.org/licenses/" RequestNavigate="Hyperlink_RequestNavigate">http://www.gnu.org/licenses/</Hyperlink>.</TextBlock>
 
