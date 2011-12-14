@@ -92,6 +92,9 @@ namespace mashtunweb.SVNServeGUILite.Classes
             {
                 Number = Properties.Settings.Default.Version;
             }
+
+            //Also, ensure that the correct version is displayed if there has been a version change
+            Properties.Settings.Default.UserVersion = Number;
         }
 
         private static void SetApplicationVersionSetting()
@@ -111,9 +114,6 @@ namespace mashtunweb.SVNServeGUILite.Classes
             StreamWriter writer = new StreamWriter(strSourceWorkingDir + "Settings.Designer.cs");
             writer.Write(content);
             writer.Close();
-
-            //Also, ensure that the correct version is displayed if there has been a version change
-            Properties.Settings.Default.UserVersion = Number;
         }
 
         private static void SvnGetlatestRev()
