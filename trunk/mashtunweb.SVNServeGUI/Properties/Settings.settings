@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SVNServeGUI.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="mashtunweb.SVNServeGUILite.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="SVNServeExePath" Type="System.String" Scope="User">
@@ -66,6 +66,9 @@ realm = !!REPOSITORYNAME!!
 # max-encryption = 256</Value>
     </Setting>
     <Setting Name="Version" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0.0.0.0</Value>
+    </Setting>
+    <Setting Name="UserVersion" Type="System.String" Scope="User">
       <Value Profile="(Default)">0.0.0.0</Value>
     </Setting>
   </Settings>

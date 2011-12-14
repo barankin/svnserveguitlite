@@ -113,7 +113,7 @@ namespace mashtunweb.SVNServeGUILite.Classes
             writer.Close();
 
             //Also, ensure that the correct version is displayed if there has been a version change
-           
+            Properties.Settings.Default.UserVersion = Number;
         }
 
         private static void SvnGetlatestRev()
