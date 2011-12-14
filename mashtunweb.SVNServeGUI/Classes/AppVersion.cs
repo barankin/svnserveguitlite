@@ -111,6 +111,9 @@ namespace mashtunweb.SVNServeGUILite.Classes
             StreamWriter writer = new StreamWriter(strSourceWorkingDir + "Settings.Designer.cs");
             writer.Write(content);
             writer.Close();
+
+            //Also, ensure that the correct version is displayed if there has been a version change
+           
         }
 
         private static void SvnGetlatestRev()
