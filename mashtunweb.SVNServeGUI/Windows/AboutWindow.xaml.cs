@@ -51,5 +51,21 @@ namespace mashtunweb.SVNServeGUILite.Windows
         {
             Close();
         }
+
+        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo(e.Uri.ToString()));
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+
+                e.Handled = true;
+            }
+        }
     }
 }
