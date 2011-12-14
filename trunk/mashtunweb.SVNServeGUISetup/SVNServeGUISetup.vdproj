@@ -140,7 +140,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.30729  "
+                "FrameworkVersion" = "8:3.5.30729   "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -287,7 +287,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SVN GUI Lite"
         "ProductCode" = "8:{BB4A5D9D-E99D-410D-87D8-C9C7B814D287}"
-        "PackageCode" = "8:{CC84B531-78BB-4A9C-AF82-2D8161405232}"
+        "PackageCode" = "8:{9C49CA17-5BE8-4382-9A23-DE9F9997A6AD}"
         "UpgradeCode" = "8:{8C575DBC-6A11-450B-8195-C2C46AA2E4B1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -35,6 +35,9 @@ namespace mashtunweb.SVNServeGUILite.Windows
     /// </summary>
     public partial class AboutWindow : Window
     {
+
+        public string Version { get; set; }
+
         public AboutWindow()
         {
             InitializeComponent();
@@ -63,7 +66,6 @@ namespace mashtunweb.SVNServeGUILite.Windows
             }
             finally
             {
-
                 e.Handled = true;
             }
         }
